@@ -1,0 +1,19 @@
+{
+  "name": "webextension-hassan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+  	"build": "../../Documents/Mozilla/projects/neutrino-dev/packages/neutrino/bin/neutrino.js build",
+  	"start": "../../Documents/Mozilla/projects/neutrino-dev/packages/neutrino/bin/neutrino.js start",
+    "sign": "../../Documents/Mozilla/projects/neutrino-dev/packages/neutrino/bin/neutrino.js sign -s build"
+  },
+  "devDependencies": {
+    "neutrino": "^7.4.0",
+    "web-ext": "^2.2.2"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
