@@ -4,9 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-  	"build": "../../Documents/Mozilla/projects/neutrino-dev/packages/neutrino/bin/neutrino.js build",
-  	"start": "../../Documents/Mozilla/projects/neutrino-dev/packages/neutrino/bin/neutrino.js start",
-    "sign": "../../Documents/Mozilla/projects/neutrino-dev/packages/neutrino/bin/neutrino.js sign -s build"
+    "build": "neutrino build",
+    "start": "neutrino start"
   },
   "devDependencies": {
     "neutrino": "^7.4.0",
