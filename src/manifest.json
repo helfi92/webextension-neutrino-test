@@ -9,14 +9,16 @@
       "48": "static/Watermelon-48.png",
       "96": "static/Watermelon-96.png"
     },
-    "default_title": "React Example",
+    "default_title": "Web extensions!",
     "default_popup": "popup.html"
   },
 
-  "background": {
-    "page": "background.html",
-    "scripts": ["background.js"]
-  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["content_script.js"]
+    }
+  ],
 
   "permissions": ["activeTab"]
 }

@@ -1,8 +1,7 @@
 module.exports = {
 	options: {
 		mains: {
-			popup: 'popup/popup.js',
-			background: 'background/background.js',
+			content_script: 'content_script.js',
 		}
 	},
 	use: [
